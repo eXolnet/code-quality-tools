@@ -1,0 +1,38 @@
+{
+    "name": "@exolnet/stylelint-config",
+    "version": "1.0.2",
+    "description": "Stylelint configuration used at eXolnet",
+    "author": "eXolnet",
+    "engines": {
+        "node": ">=8.9.3"
+    },
+    "license": "MIT",
+    "keywords": [
+        "code",
+        "code style",
+        "css",
+        "lint",
+        "linter",
+        "linting",
+        "stylelint",
+        "stylelint-config",
+        "validate"
+    ],
+    "homepage": "https://github.com/eXolnet/code-quality-tools",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eXolnet/code-quality-tools.git"
+    },
+    "bugs": "https://github.com/eXolnet/code-quality-tools/issues",
+    "main": "index.js",
+    "dependencies": {
+        "stylelint-config-standard": "^18.2.0",
+        "stylelint-scss": "^3.5.4"
+    },
+    "peerDependencies": {
+        "stylelint": "^9.5.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

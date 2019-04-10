@@ -1,0 +1,38 @@
+{
+    "name": "@exolnet/eslint-config-vue",
+    "version": "1.0.4",
+    "description": "ESLint configuration for Vue projects used at eXolnet",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eXolnet/code-quality-tools.git"
+    },
+    "homepage": "https://github.com/eXolnet/code-quality-tools/tree/master/packages/eslint-config-vue",
+    "bugs": {
+        "url": "https://github.com/eXolnet/code-quality-tools/issues"
+    },
+    "author": "eXolnet",
+    "engines": {
+        "node": ">=8.9.3"
+    },
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "eslint-config",
+        "config",
+        "code-quality-tools",
+        "exolnet",
+        "vue"
+    ],
+    "main": "index.js",
+    "dependencies": {
+        "@exolnet/eslint-config-base": "^1.0.0",
+        "eslint-plugin-vue": "^3.0.0"
+    },
+    "peerDependencies": {
+        "eslint": "^5.16.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

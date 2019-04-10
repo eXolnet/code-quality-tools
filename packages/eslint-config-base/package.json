@@ -1,0 +1,36 @@
+{
+    "name": "@exolnet/eslint-config-base",
+    "version": "1.0.9",
+    "description": "ESLint configuration for JavaScript projects used at eXolnet",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eXolnet/code-quality-tools.git"
+    },
+    "homepage": "https://github.com/eXolnet/code-quality-tools/tree/master/packages/eslint-config-base",
+    "bugs": {
+        "url": "https://github.com/eXolnet/code-quality-tools/issues"
+    },
+    "author": "eXolnet",
+    "engines": {
+        "node": ">=8.9.3"
+    },
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "eslint-config",
+        "config",
+        "code-quality-tools",
+        "exolnet"
+    ],
+    "main": "index.js",
+    "peerDependencies": {
+        "eslint": "^5.16.0"
+    },
+    "dependencies": {
+        "babel-eslint": "^10.0.1"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

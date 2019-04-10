@@ -1,0 +1,38 @@
+{
+    "name": "@exolnet/eslint-config-react",
+    "version": "1.0.6",
+    "description": "ESLint configuration for React projects used at eXolnet",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eXolnet/code-quality-tools.git"
+    },
+    "homepage": "https://github.com/eXolnet/code-quality-tools/tree/master/packages/eslint-config-react",
+    "bugs": {
+        "url": "https://github.com/eXolnet/code-quality-tools/issues"
+    },
+    "author": "eXolnet",
+    "engines": {
+        "node": ">=8.9.3"
+    },
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "eslint-config",
+        "config",
+        "code-quality-tools",
+        "exolnet",
+        "react"
+    ],
+    "main": "index.js",
+    "dependencies": {
+        "@exolnet/eslint-config-base": "^1.0.0",
+        "eslint-plugin-react": "^7.12.4"
+    },
+    "peerDependencies": {
+        "eslint": "^5.16.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
