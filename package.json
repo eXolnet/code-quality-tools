@@ -1,7 +1,7 @@
 {
     "name": "@exolnet/code-quality-tools",
     "description": "A collection of shareable configurations for various coding-style tools to make the configurations consistent across our projects",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "eXolnet",
     "license": "MIT",
     "keywords": [],
@@ -12,7 +12,7 @@
     },
     "bugs": "https://github.com/eXolnet/code-quality-tools/issues",
     "devDependencies": {
-        "eslint": "^5.16.0",
+        "eslint": "^6.1.0",
         "babel-eslint": "^10.0.1"
     },
     "eslintIgnore": [

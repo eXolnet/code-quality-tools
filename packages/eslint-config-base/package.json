@@ -1,6 +1,6 @@
 {
     "name": "@exolnet/eslint-config-base",
-    "version": "1.0.9",
+    "version": "1.1.0",
     "description": "ESLint configuration for JavaScript projects used at eXolnet",
     "license": "MIT",
     "repository": {
@@ -25,7 +25,7 @@
     ],
     "main": "index.js",
     "peerDependencies": {
-        "eslint": "^5.16.0"
+        "eslint": "^6.1.0"
     },
     "dependencies": {
         "babel-eslint": "^10.0.1"
