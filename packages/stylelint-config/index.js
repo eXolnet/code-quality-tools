@@ -4,10 +4,10 @@ module.exports = {
         'stylelint-scss',
     ],
     'rules': {
-        'indentation': 4,
-        'selector-pseudo-element-colon-notation': 'single',
         'at-rule-no-unknown': null,
+        'indentation': 4,
         'no-descending-specificity': null,
         'scss/at-rule-no-unknown': true,
+        'selector-pseudo-element-colon-notation': 'single',
     },
 };
