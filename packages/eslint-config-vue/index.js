@@ -16,6 +16,7 @@ module.exports = {
             rules: {
                 indent: 'off',
                 'vue/html-indent': ['warn', 4],
+                'vue/max-attributes-per-line' : 'off'
             },
         },
     ],
