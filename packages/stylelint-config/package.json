@@ -1,6 +1,6 @@
 {
     "name": "@exolnet/stylelint-config",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "description": "Stylelint configuration used at eXolnet",
     "author": "eXolnet",
     "engines": {
@@ -26,11 +26,11 @@
     "bugs": "https://github.com/eXolnet/code-quality-tools/issues",
     "main": "index.js",
     "dependencies": {
-        "stylelint-config-standard": "^18.2.0",
+        "stylelint-config-standard": "^19.0.0",
         "stylelint-scss": "^3.5.4"
     },
     "peerDependencies": {
-        "stylelint": "^9.5.0"
+        "stylelint": ">=10.1.0"
     },
     "publishConfig": {
         "access": "public"
