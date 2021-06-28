@@ -7,6 +7,7 @@ module.exports = {
     plugins: ['vue'],
 
     rules: {
+        'vue/component-definition-name-casing': 'off',
         'vue/require-v-for-key': 'off',
     },
 
