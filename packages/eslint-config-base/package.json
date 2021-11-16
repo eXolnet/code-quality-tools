@@ -13,7 +13,7 @@
     },
     "author": "eXolnet",
     "engines": {
-        "node": ">=8.9.3"
+        "node": ">=14.0"
     },
     "keywords": [
         "eslint",
@@ -25,10 +25,7 @@
     ],
     "main": "index.js",
     "peerDependencies": {
-        "eslint": ">= 6.1.0"
-    },
-    "dependencies": {
-        "babel-eslint": "^10.0.1"
+        "eslint": ">= 8.0"
     },
     "publishConfig": {
         "access": "public"
