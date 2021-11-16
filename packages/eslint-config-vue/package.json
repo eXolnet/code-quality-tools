@@ -1,6 +1,6 @@
 {
     "name": "@exolnet/eslint-config-vue",
-    "version": "4.0.0-alpha.1",
+    "version": "4.0.0",
     "description": "ESLint configuration for Vue projects used at eXolnet",
     "license": "MIT",
     "repository": {
