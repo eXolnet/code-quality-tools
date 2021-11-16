@@ -1,8 +1,5 @@
 module.exports = {
-    'extends': 'stylelint-config-standard',
-    'plugins': [
-        'stylelint-scss',
-    ],
+    'extends': 'stylelint-config-standard-scss',
     'rules': {
         'at-rule-no-unknown': null,
         'indentation': 4,

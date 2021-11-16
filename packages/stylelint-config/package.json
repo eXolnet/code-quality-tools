@@ -26,11 +26,10 @@
     "bugs": "https://github.com/eXolnet/code-quality-tools/issues",
     "main": "index.js",
     "dependencies": {
-        "stylelint-config-standard": "^19.0.0",
-        "stylelint-scss": "^3.5.4"
+        "stylelint-config-standard-scss": "^2.0.1"
     },
     "peerDependencies": {
-        "stylelint": ">=10.1.0"
+        "stylelint": ">=14.0.0"
     },
     "publishConfig": {
         "access": "public"
