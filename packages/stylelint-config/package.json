@@ -26,7 +26,7 @@
     "bugs": "https://github.com/eXolnet/code-quality-tools/issues",
     "main": "index.js",
     "dependencies": {
-        "stylelint-config-standard-scss": "^2.0.1"
+        "stylelint-config-standard-scss": "^3.0.0"
     },
     "peerDependencies": {
         "stylelint": ">=14.0.0"
