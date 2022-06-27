@@ -1,0 +1,22 @@
+{
+	"name": "exolnet/phpcs-fixer-config",
+	"description": "eXolnet configuration for PHP Coding Standards Fixer.",
+	"license": "MIT",
+	"keywords": ["exolnet", "laravel", "psr", "phpcs-fixer"],
+	"authors": [
+        {
+            "name": "Simon Gaudreau",
+            "email": "sgaudreau@exolnet.com"
+        }
+	],
+	"require": {
+		"php": ">=7.4"
+	},
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+	"require-dev": {
+		"friendsofphp/php-cs-fixer": "^3.8"
+	}
+}
