@@ -8,7 +8,7 @@ wrappedPipeline {
                 sh 'chmod +x git-subsplit.sh'
 
                 // exolnet-bot
-                sshagent (credentials: ['5257b043-1981-4a54-90ed-41c00095fb60']) {
+                sshagent (credentials: ['global--github--exolnet-bot--ssh']) {
                     sh './git-subsplit.sh init git@github.com:eXolnet/code-quality-tools.git'
                     sh './git-subsplit.sh publish --heads="master" --no-tags packages/phpcs-config:git@github.com:exolnet/phpcs-config.git'
                 }
