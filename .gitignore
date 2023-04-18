@@ -7,4 +7,5 @@ package-lock.json
 Thumbs.db
 yarn.lock
 yarn-error.log
+.yarn/
 composer.lock
