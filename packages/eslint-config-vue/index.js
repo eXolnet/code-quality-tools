@@ -1,7 +1,7 @@
 module.exports = {
     extends: [
         require.resolve('@exolnet/eslint-config-base'),
-        'plugin:vue/recommended',
+        'plugin:vue/vue3-recommended',
     ],
 
     plugins: ['vue'],
