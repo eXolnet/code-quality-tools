@@ -1,0 +1,49 @@
+name: ci
+
+on: [push, pull_request]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Set Yarn 3 as package manager
+        run: |
+          corepack enable yarn
+          corepack prepare yarn@stable --activate
+
+      - name: Install Yarn dependencies
+        run: yarn install --no-immutable
+
+      - name: JavaScript linting
+        run: yarn lint
+
+  package:
+    if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+    needs: tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Git Subsplit
+        run: |
+          wget https://raw.githubusercontent.com/dflydev/git-subsplit/2cde593a10acdb3fcafd2136ee7025fee9e925b2/git-subsplit.sh
+          chmod +x git-subsplit.sh
+
+      - name: Setup SSH Agent
+        uses: webfactory/ssh-agent@v0.7.0
+        with:
+          ssh-private-key: ${{ secrets.EXOLNET_PHPCS_CONFIG_SSH_DEPLOY_KEY }}
+
+      - name: Publish phpcs-config
+        run: |
+          ./git-subsplit.sh init git@github.com:eXolnet/code-quality-tools.git
+          ./git-subsplit.sh publish --heads="master" --no-tags packages/phpcs-config:git@github.com:exolnet/phpcs-config.git
