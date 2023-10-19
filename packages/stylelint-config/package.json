@@ -3,9 +3,6 @@
     "version": "4.0.0",
     "description": "Stylelint configuration used at eXolnet",
     "author": "eXolnet",
-    "engines": {
-        "node": ">=8.9.3"
-    },
     "license": "MIT",
     "keywords": [
         "code",
