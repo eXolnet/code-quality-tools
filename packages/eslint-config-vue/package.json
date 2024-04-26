@@ -13,7 +13,7 @@
     },
     "author": "eXolnet",
     "engines": {
-        "node": ">=14.0"
+        "node": ">=18.0"
     },
     "keywords": [
         "eslint",
@@ -26,11 +26,11 @@
     ],
     "main": "index.js",
     "dependencies": {
-        "@exolnet/eslint-config-base": "^2.0.0",
+        "@exolnet/eslint-config-base": "^3.0.0",
         "eslint-plugin-vue": "^9.0.0"
     },
     "peerDependencies": {
-        "eslint": ">= 8.0"
+        "eslint": ">= 9.0"
     },
     "publishConfig": {
         "access": "public"
