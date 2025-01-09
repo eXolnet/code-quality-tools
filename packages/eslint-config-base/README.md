@@ -26,5 +26,7 @@ If you are using YAML or JavaScript for your [ESLint configuration file format](
 
 ## License
 
-This code is licensed under the [MIT license](http://choosealicense.com/licenses/mit/). 
+Copyright © [eXolnet](https://www.exolnet.com). All rights reserved.
+
+This code is licensed under the [MIT license](http://choosealicense.com/licenses/mit/).
 Please see the [license file](LICENSE) for more information.
