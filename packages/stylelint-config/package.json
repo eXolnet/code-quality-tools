@@ -1,6 +1,6 @@
 {
     "name": "@exolnet/stylelint-config",
-    "version": "6.0.1",
+    "version": "6.0.2",
     "description": "Stylelint configuration used at eXolnet",
     "author": "eXolnet",
     "license": "MIT",

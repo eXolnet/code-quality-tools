@@ -1,6 +1,6 @@
 {
     "name": "@exolnet/eslint-config-base",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "ESLint configuration for JavaScript projects used at eXolnet",
     "license": "MIT",
     "repository": {
