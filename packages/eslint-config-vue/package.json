@@ -7,7 +7,7 @@
         "type": "git",
         "url": "git+https://github.com/eXolnet/code-quality-tools.git"
     },
-    "homepage": "https://github.com/eXolnet/code-quality-tools/tree/master/packages/eslint-config-vue",
+    "homepage": "https://github.com/eXolnet/code-quality-tools/tree/main/packages/eslint-config-vue",
     "bugs": {
         "url": "https://github.com/eXolnet/code-quality-tools/issues"
     },
