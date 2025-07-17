@@ -26,7 +26,7 @@ jobs:
         run: yarn lint
 
   package:
-    if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     needs: tests
     runs-on: ubuntu-latest
 
@@ -46,4 +46,4 @@ jobs:
       - name: Publish phpcs-config
         run: |
           ./git-subsplit.sh init git@github.com:eXolnet/code-quality-tools.git
-          ./git-subsplit.sh publish --heads="master" --no-tags packages/phpcs-config:git@github.com:exolnet/phpcs-config.git
+          ./git-subsplit.sh publish --heads="main" --no-tags packages/phpcs-config:git@github.com:exolnet/phpcs-config.git
