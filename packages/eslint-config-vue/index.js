@@ -9,7 +9,6 @@ module.exports = [
         rules: {
             'vue/component-definition-name-casing': 'off',
             'vue/require-v-for-key': 'off',
-            'indent': 'off',
             'vue/html-indent': ['warn', 4],
             'vue/max-attributes-per-line' : 'off',
         },

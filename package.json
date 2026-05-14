@@ -12,8 +12,10 @@
     },
     "bugs": "https://github.com/eXolnet/code-quality-tools/issues",
     "devDependencies": {
+        "@eslint/js": "^10.0.0",
         "babel-eslint": "^10.0.1",
-        "eslint": "^9.1.0"
+        "eslint": "^10.0.0",
+        "globals": "^16.0.0 || ^17.0.0"
     },
     "eslintIgnore": [
         "*/**/node_modules/*"

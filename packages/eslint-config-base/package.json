@@ -1,6 +1,6 @@
 {
     "name": "@exolnet/eslint-config-base",
-    "version": "3.0.1",
+    "version": "4.0.0",
     "description": "ESLint configuration for JavaScript projects used at eXolnet",
     "license": "MIT",
     "repository": {
@@ -25,10 +25,11 @@
     ],
     "main": "index.js",
     "dependencies": {
-        "@eslint/js": "^9.0.0"
+        "@eslint/js": "^10.0.0",
+        "globals": "^16.0.0 || ^17.0.0"
     },
     "peerDependencies": {
-        "eslint": ">= 9.0"
+        "eslint": ">= 10.0"
     },
     "publishConfig": {
         "access": "public"
