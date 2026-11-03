@@ -1,15 +1,16 @@
 const js = require('@eslint/js');
 const esLintGlobals = require('globals');
 
+// eslint-disable-next-line no-unused-vars
+const { AudioWorkletGlobalScope, ...browserGlobals } = esLintGlobals.browser;
+
 module.exports = [
     js.configs.recommended,
     {
         languageOptions: {
             globals: {
                 ...esLintGlobals.node,
-                ...Object.keys(esLintGlobals.browser).filter((objKey)=>{
-                    objKey !== 'AudioWorkletGlobalScope ';
-                }),
+                ...browserGlobals,
             },
         },
 
