@@ -7,10 +7,12 @@ Stylelint configuration used at eXolnet.
 
 ## Installation
 
-Install this package, and save it as a `devDependency`:
+This configuration requires `stylelint` 17 and Node.js 20.19 or later.
+
+Install this package along with its peer dependencies, and save them as `devDependencies`:
 
 ```
-npm install --save-dev @exolnet/stylelint-config
+npm install --save-dev @exolnet/stylelint-config stylelint postcss
 ```
 
 Then have your project's `.stylelintrc.json` file extend the ruleset.
