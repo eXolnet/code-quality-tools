@@ -13,4 +13,14 @@ module.exports = [
             'vue/max-attributes-per-line' : 'off',
         },
     },
+    {
+        files: ['**/*.vue'],
+        rules: {
+            'indent': 'off',
+            'vue/script-indent': ['error', 4, {
+                baseIndent: 1,
+                switchCase: 1,
+            }],
+        },
+    },
 ];
